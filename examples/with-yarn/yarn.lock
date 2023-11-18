@@ -766,17 +766,17 @@ eslint-config-next@^13.4.1:
     eslint-plugin-react "^7.31.7"
     eslint-plugin-react-hooks "^4.5.0"
 
-eslint-config-prettier@^8.3.0:
-  version "8.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
-  integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
-
 eslint-config-nxpkg@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/eslint-config-nxpkg/-/eslint-config-nxpkg-1.9.3.tgz#17299666393d5060d4b894c1e869fc8ef6e3dd8f"
   integrity sha512-QG6jxFQkrGSpQqlFKefPdtgUfr20EbU0s4tGGIuGFOcPuJEdsY6VYZpZUxNJvmMcTGqPgMyOPjAFBKhy/DPHLA==
   dependencies:
     eslint-plugin-nxpkg "1.9.3"
+
+eslint-config-prettier@^8.3.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
+  integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
 eslint-import-resolver-node@^0.3.6, eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -851,6 +851,11 @@ eslint-plugin-jsx-a11y@^6.5.1:
     object.fromentries "^2.0.6"
     semver "^6.3.0"
 
+eslint-plugin-nxpkg@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-nxpkg/-/eslint-plugin-nxpkg-1.9.3.tgz#b2c21d849bf4a395e92fcc7705bb612af6fbe6e8"
+  integrity sha512-ZsRtksdzk3v+z5/I/K4E50E4lfZ7oYmLX395gkrUMBz4/spJlYbr+GC8hP9oVNLj9s5Pvnm9rLv/zoj5PVYaVw==
+
 eslint-plugin-react-hooks@^4.5.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz#4c3e697ad95b77e93f8646aaa1630c1ba607edd3"
@@ -896,11 +901,6 @@ eslint-plugin-react@^7.31.7:
     resolve "^2.0.0-next.4"
     semver "^6.3.0"
     string.prototype.matchall "^4.0.8"
-
-eslint-plugin-nxpkg@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-nxpkg/-/eslint-plugin-nxpkg-1.9.3.tgz#b2c21d849bf4a395e92fcc7705bb612af6fbe6e8"
-  integrity sha512-ZsRtksdzk3v+z5/I/K4E50E4lfZ7oYmLX395gkrUMBz4/spJlYbr+GC8hP9oVNLj9s5Pvnm9rLv/zoj5PVYaVw==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
@@ -1739,6 +1739,48 @@ npm-run-path@^5.1.0:
   dependencies:
     path-key "^4.0.0"
 
+nxpkg-darwin-64@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg-darwin-64/-/nxpkg-darwin-64-1.9.3.tgz#29470b902a1418dae8a88b2620caf917b27480bc"
+  integrity sha512-0dFc2cWXl82kRE4Z+QqPHhbEFEpUZho1msHXHWbz5+PqLxn8FY0lEVOHkq5tgKNNEd5KnGyj33gC/bHhpZOk5g==
+
+nxpkg-darwin-arm64@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg-darwin-arm64/-/nxpkg-darwin-arm64-1.9.3.tgz#0eb404d6101ba69eab8522b16260a4eb50885e6c"
+  integrity sha512-1cYbjqLBA2zYE1nbf/qVnEkrHa4PkJJbLo7hnuMuGM0bPzh4+AnTNe98gELhqI1mkTWBu/XAEeF5u6dgz0jLNA==
+
+nxpkg-linux-64@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg-linux-64/-/nxpkg-linux-64-1.9.3.tgz#dbce8fd50edee1319f17800ee38e7c4749ab0cb0"
+  integrity sha512-UuBPFefawEwpuxh5pM9Jqq3q4C8M0vYxVYlB3qea/nHQ80pxYq7ZcaLGEpb10SGnr3oMUUs1zZvkXWDNKCJb8Q==
+
+nxpkg-linux-arm64@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg-linux-arm64/-/nxpkg-linux-arm64-1.9.3.tgz#636b77fde17c7a5cdef8a20616ff57f08c785345"
+  integrity sha512-vUrNGa3hyDtRh9W0MkO+l1dzP8Co2gKnOVmlJQW0hdpOlWlIh22nHNGGlICg+xFa2f9j4PbQlWTsc22c019s8Q==
+
+nxpkg-windows-64@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg-windows-64/-/nxpkg-windows-64-1.9.3.tgz#c65625c222456161b0b4d000ec7f50e372332825"
+  integrity sha512-0BZ7YaHs6r+K4ksqWus1GKK3W45DuDqlmfjm/yuUbTEVc8szmMCs12vugU2Zi5GdrdJSYfoKfEJ/PeegSLIQGQ==
+
+nxpkg-windows-arm64@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg-windows-arm64/-/nxpkg-windows-arm64-1.9.3.tgz#86e105692ad6ba935eff0284522bdf7728a2e517"
+  integrity sha512-QJUYLSsxdXOsR1TquiOmLdAgtYcQ/RuSRpScGvnZb1hY0oLc7JWU0llkYB81wVtWs469y8H9O0cxbKwCZGR4RQ==
+
+nxpkg@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/nxpkg/-/nxpkg-1.9.3.tgz#911012624f647f98d9788a08e25b98e38cdd48b2"
+  integrity sha512-ID7mxmaLUPKG/hVkp+h0VuucB1U99RPCJD9cEuSEOdIPoSIuomcIClEJtKamUsdPLhLCud+BvapBNnhgh58Nzw==
+  optionalDependencies:
+    nxpkg-darwin-64 "1.9.3"
+    nxpkg-darwin-arm64 "1.9.3"
+    nxpkg-linux-64 "1.9.3"
+    nxpkg-linux-arm64 "1.9.3"
+    nxpkg-windows-64 "1.9.3"
+    nxpkg-windows-arm64 "1.9.3"
+
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -2045,14 +2087,14 @@ scheduler@^0.23.0:
     loose-envify "^1.1.0"
 
 semver@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
-  integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
+  integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
 semver@^7.2.1, semver@^7.3.7:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
-  integrity sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
+  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
 
@@ -2293,48 +2335,6 @@ tsutils@^3.21.0:
   integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
-
-nxpkg-darwin-64@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg-darwin-64/-/nxpkg-darwin-64-1.9.3.tgz#29470b902a1418dae8a88b2620caf917b27480bc"
-  integrity sha512-0dFc2cWXl82kRE4Z+QqPHhbEFEpUZho1msHXHWbz5+PqLxn8FY0lEVOHkq5tgKNNEd5KnGyj33gC/bHhpZOk5g==
-
-nxpkg-darwin-arm64@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg-darwin-arm64/-/nxpkg-darwin-arm64-1.9.3.tgz#0eb404d6101ba69eab8522b16260a4eb50885e6c"
-  integrity sha512-1cYbjqLBA2zYE1nbf/qVnEkrHa4PkJJbLo7hnuMuGM0bPzh4+AnTNe98gELhqI1mkTWBu/XAEeF5u6dgz0jLNA==
-
-nxpkg-linux-64@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg-linux-64/-/nxpkg-linux-64-1.9.3.tgz#dbce8fd50edee1319f17800ee38e7c4749ab0cb0"
-  integrity sha512-UuBPFefawEwpuxh5pM9Jqq3q4C8M0vYxVYlB3qea/nHQ80pxYq7ZcaLGEpb10SGnr3oMUUs1zZvkXWDNKCJb8Q==
-
-nxpkg-linux-arm64@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg-linux-arm64/-/nxpkg-linux-arm64-1.9.3.tgz#636b77fde17c7a5cdef8a20616ff57f08c785345"
-  integrity sha512-vUrNGa3hyDtRh9W0MkO+l1dzP8Co2gKnOVmlJQW0hdpOlWlIh22nHNGGlICg+xFa2f9j4PbQlWTsc22c019s8Q==
-
-nxpkg-windows-64@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg-windows-64/-/nxpkg-windows-64-1.9.3.tgz#c65625c222456161b0b4d000ec7f50e372332825"
-  integrity sha512-0BZ7YaHs6r+K4ksqWus1GKK3W45DuDqlmfjm/yuUbTEVc8szmMCs12vugU2Zi5GdrdJSYfoKfEJ/PeegSLIQGQ==
-
-nxpkg-windows-arm64@1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg-windows-arm64/-/nxpkg-windows-arm64-1.9.3.tgz#86e105692ad6ba935eff0284522bdf7728a2e517"
-  integrity sha512-QJUYLSsxdXOsR1TquiOmLdAgtYcQ/RuSRpScGvnZb1hY0oLc7JWU0llkYB81wVtWs469y8H9O0cxbKwCZGR4RQ==
-
-nxpkg@^1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/nxpkg/-/nxpkg-1.9.3.tgz#911012624f647f98d9788a08e25b98e38cdd48b2"
-  integrity sha512-ID7mxmaLUPKG/hVkp+h0VuucB1U99RPCJD9cEuSEOdIPoSIuomcIClEJtKamUsdPLhLCud+BvapBNnhgh58Nzw==
-  optionalDependencies:
-    nxpkg-darwin-64 "1.9.3"
-    nxpkg-darwin-arm64 "1.9.3"
-    nxpkg-linux-64 "1.9.3"
-    nxpkg-linux-arm64 "1.9.3"
-    nxpkg-windows-64 "1.9.3"
-    nxpkg-windows-arm64 "1.9.3"
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
