@@ -1,5 +1,4 @@
-# .github/workflows/main.yml
-
+name: "👪 Contribution Graph"
 on: push
 
 jobs:
